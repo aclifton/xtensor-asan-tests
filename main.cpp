@@ -37,6 +37,8 @@ int main(int argc, char* argv[])
 
     double value = result[0];
     std::cout << value <<std::endl;
+    struct test a;
+    std::cout << a.tree << std::endl;
 
     return 0;
 }
